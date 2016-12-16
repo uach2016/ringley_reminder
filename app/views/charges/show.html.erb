@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Estate code:</strong>
+  <%= @charge.estate_code %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @charge.period %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @charge.due_date %>
+</p>
+
+<%= link_to 'Edit', edit_charge_path(@charge) %> |
+<%= link_to 'Back', charges_path %>
